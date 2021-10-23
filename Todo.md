@@ -1,0 +1,3 @@
+- [x] ~~_Créer la logique de la calculatrice_~~ [21-10-21 => 16:04]
+- [ ] Finir le CSS du theme chooser (partie visible)
+- [ ] créer la partie logique du theme chooser

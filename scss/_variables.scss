@@ -1,0 +1,58 @@
+// Couleurs
+
+// theme 1
+
+$test: blue;
+
+$theme1-main-background: hsl(222, 26%, 31%);
+$theme1-keypad-background: hsl(223, 31%, 20%);
+$theme1-screen-background: hsl(224, 36%, 15%);
+
+$theme1-keyNumber-background: hsl(30, 25%, 89%);
+$theme1-numberShadow: hsl(28, 16%, 65%);
+
+$theme1-equalKey-background: hsl(6, 63%, 50%);
+$theme1-equalShadow: hsl(6, 70%, 34%);
+
+$theme1-resetKey-background: hsl(225, 21%, 49%);
+$theme1-resetShadow: hsl(224, 28%, 35%);
+
+$theme1-textDark: hsl(221, 14%, 31%);
+$theme1-textLight: hsl(0, 0, 100%);
+
+// theme 2
+
+$theme2-main-background: hsl(0, 0%, 90%);
+$theme2-keypad-background: hsl(0, 5%, 81%);
+$theme2-screen-background: hsl(0, 0%, 93%);
+
+$theme2-keyNumber-background: hsl(185, 42%, 37%);
+$theme2-keyNumberShadow: hsl(185, 58%, 25%);
+
+$theme2-equalKey-background: hsl(25, 98%, 40%);
+$theme2-equalShadow: hsl(25, 99%, 27%);
+
+$theme2-resetKey-background: hsl(45, 7%, 89%);
+$theme2-resetShadow: hsl(35, 11%, 61%);
+
+$theme2-textDark: hsl(60, 10%, 19%);
+$theme2-textLight: hsl(0, 0, 100%);
+
+// theme 3
+
+$theme3-main-background: hsl(268, 75%, 9%);
+$theme3-keypad-background: hsl(268, 71%, 12%);
+$theme3-screen-background: hsl(268, 71%, 12%);
+
+$theme3-keyNumber-background: hsl(281, 89%, 26%);
+$theme3-keyNumberShadow: hsl(285, 91%, 52%);
+
+$theme3-equalKey-background: hsl(176, 100%, 44%);
+$theme3-equalShadow: hsl(177, 92%, 70%);
+
+$theme3-resetKey-background: hsl(268, 47%, 21%);
+$theme3-resetShadow: hsl(290, 70%, 36%);
+
+$theme3-textDark: hsl(198, 20%, 13%);
+$theme3-textLight: hsl(52, 100%, 62%);
+// $theme3-textLight: hsl(0, 0, 100%);
