@@ -32,8 +32,8 @@ functions.forEach((fn) => {
     }
   });
 });
-// RAZ
 
+// RAZ
 function reset() {
   output = "";
   screen.innerText = "";
@@ -47,6 +47,7 @@ function del() {
 
 // Calcul et affichage du résultat
 function result() {
-  screen.innerHTML = eval(output);
-  eval();
+  let result = eval(output);
+  screen.innerHTML = result;
+  output = "";
 }

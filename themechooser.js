@@ -1,8 +1,6 @@
 const themes = document.querySelectorAll('input[name="switch"]');
 const declaration = document.styleSheets[0].cssRules[11].style;
 const styleSheets = document.styleSheets;
-console.log(styleSheets);
-console.log(declaration);
 // console.log(themes);
 
 themes.forEach((theme) => {
