@@ -1,3 +1,3 @@
 - [x] ~~_Créer la logique de la calculatrice_~~ [21-10-21 => 16:04]
-- [ ] Finir le CSS du theme chooser (partie visible)
-- [ ] créer la partie logique du theme chooser
+- [x] ~~_Finir le CSS du theme chooser (partie visible)_~~ [24-10-21 => 15:48]
+- [x] ~~_créer la partie logique du theme chooser_~~ [24-10-21 => 15:48]

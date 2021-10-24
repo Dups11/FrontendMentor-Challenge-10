@@ -1,0 +1,215 @@
+/* Stylesheet pour les changements de theme */
+
+:root {
+  /* Backgrounds*/
+
+  --theme1-main-background: hsl(222, 26%, 31%);
+  --theme1-keypad-background: hsl(223, 31%, 20%);
+  --theme1-screen-background: hsl(224, 36%, 15%);
+
+  --theme2-main-background: hsl(0, 0%, 90%);
+  --theme2-keypad-background: hsl(0, 5%, 81%);
+  --theme2-screen-background: hsl(0, 0%, 93%);
+
+  --theme3-main-background: hsl(268, 75%, 9%);
+  --theme3-keypad-background: hsl(268, 71%, 12%);
+
+  /* Keys */
+
+  --theme1-key-reset-background: hsl(225, 21%, 49%);
+  --theme1-key-reset-shadow: hsl(224, 28%, 35%);
+  --theme1-key-equal-background: hsl(6, 63%, 50%);
+  --theme1-key-equal-shadow: hsl(6, 70%, 34%);
+  --theme1-key-background: hsl(30, 25%, 89%);
+  --theme1-key-shadow: hsl(28, 16%, 65%);
+
+  --theme2-key-reset-background: hsl(185, 42%, 37%);
+  --theme2-key-reset-shadow: hsl(185, 58%, 25%);
+  --theme2-key-equal-background: hsl(25, 98%, 40%);
+  --theme2-key-equal-shadow: hsl(25, 99%, 27%);
+  --theme2-key-background: hsl(45, 7%, 89%);
+  --theme2-key-shadow: hsl(35, 11%, 61%);
+
+  --theme3-key-reset-background: hsl(281, 89%, 26%);
+  --theme3-key-reset-shadow: hsl(285, 91%, 52%);
+  --theme3-key-equal-background: hsl(176, 100%, 44%);
+  --theme3-key-equal-shadow: hsl(177, 92%, 70%);
+  --theme3-key-background: hsl(268, 47%, 21%);
+  --theme3-key-shadow: hsl(290, 70%, 36%);
+
+  /* Text */
+
+  --theme1-primary-text: hsl(221, 14%, 31%);
+  --theme1-secondary: hsl(0, 0, 100%);
+
+  --theme2-primary-text: hsl(60, 10%, 19%);
+  --theme2-secondary: white;
+
+  --theme3-primary-text: hsl(52, 100%, 62%);
+  --theme3-secondary: hsl(198, 20%, 13%);
+  --theme3-third: white;
+}
+
+body.theme2 {
+  background-color: var(--theme2-main-background);
+}
+
+body.theme2 .title {
+  color: var(--theme2-primary-text);
+}
+
+body.theme2 .theme-switcher-container span {
+  color: var(--theme2-primary-text);
+}
+body.theme2 .theme-number label {
+  color: var(--theme2-primary-text);
+}
+
+body.theme2 .theme-number input:checked ~ .checkmark {
+  background-color: var(--theme2-key-equal-background);
+}
+
+body.theme2 .toggle-switcher {
+  background-color: var(--theme2-keypad-background);
+}
+
+body.theme2 .screen {
+  background-color: var(--theme2-screen-background);
+}
+body.theme2 #screen {
+  color: var(--theme2-primary-text);
+}
+
+body.theme2 .keypad {
+  background-color: var(--theme2-keypad-background);
+}
+
+body.theme2 .keypad :nth-child(17) {
+  background-color: var(--theme2-key-reset-background);
+  box-shadow: 0 4px 1px var(--theme2-key-reset-shadow);
+  color: var(--theme2-secondary);
+}
+
+body.theme2 .keypad :nth-child(4) {
+  background-color: var(--theme2-key-reset-background);
+  box-shadow: 0 4px 1px var(--theme2-key-reset-shadow);
+  color: var(--theme2-secondary);
+}
+
+body.theme2 .keypad :last-child {
+  background-color: var(--theme2-key-equal-background);
+  box-shadow: 0 4px 1px var(--theme2-key-equal-shadow);
+  color: var(--theme2-secondary);
+}
+
+body.theme2 input[type="button"] {
+  box-shadow: 0 4px 1px var(--theme2-key-shadow);
+  background-color: var(--theme2-key-background);
+  color: var(--theme2-primary-text);
+}
+
+body.theme2 input[type="submit"] {
+  box-shadow: 0 4px 1px var(--theme2-key-shadow);
+  background-color: var(--theme2-key-background);
+  color: var(--theme2-primary-text);
+}
+
+body.theme2 input[type="button"]:active {
+  transform: translatey(3px);
+  -webkit-transform: translatey(3px);
+  -moz-transform: translatey(3px);
+  -ms-transform: translatey(3px);
+  -o-transform: translatey(3px);
+  box-shadow: 0 0 0;
+}
+
+body.theme2 input[type="submit"]:active {
+  transform: translatey(3px);
+  -webkit-transform: translatey(3px);
+  -moz-transform: translatey(3px);
+  -ms-transform: translatey(3px);
+  -o-transform: translatey(3px);
+  box-shadow: 0 0 0;
+}
+
+body.theme3 {
+  background-color: var(--theme3-main-background);
+}
+
+body.theme3 .title {
+  color: var(--theme3-primary-text);
+}
+
+body.theme3 .theme-switcher-container span {
+  color: var(--theme3-primary-text);
+}
+body.theme3 .theme-number label {
+  color: var(--theme3-primary-text);
+}
+
+body.theme3 .theme-number input:checked ~ .checkmark {
+  background-color: var(--theme3-key-equal-background);
+}
+
+body.theme3 .toggle-switcher {
+  background-color: var(--theme3-keypad-background);
+}
+
+body.theme3 .screen {
+  background-color: var(--theme3-keypad-background);
+}
+body.theme3 #screen {
+  color: var(--theme3-primary-text);
+}
+
+body.theme3 .keypad {
+  background-color: var(--theme3-keypad-background);
+}
+
+body.theme3 .keypad :nth-child(17) {
+  background-color: var(--theme3-key-reset-background);
+  box-shadow: 0 4px 1px var(--theme3-key-reset-shadow);
+  color: var(--theme3-third);
+}
+
+body.theme3 .keypad :nth-child(4) {
+  background-color: var(--theme3-key-reset-background);
+  box-shadow: 0 4px 1px var(--theme3-key-reset-shadow);
+  color: var(--theme3-third);
+}
+
+body.theme3 .keypad :last-child {
+  background-color: var(--theme3-key-equal-background);
+  box-shadow: 0 4px 1px var(--theme3-key-equal-shadow);
+  color: inherit;
+}
+
+body.theme3 input[type="button"] {
+  box-shadow: 0 4px 1px var(--theme3-key-shadow);
+  background-color: var(--theme3-key-background);
+  color: var(--theme3-primary-text);
+}
+
+body.theme3 input[type="submit"] {
+  box-shadow: 0 4px 1px var(--theme3-key-shadow);
+  background-color: var(--theme3-key-background);
+  color: var(--theme3-primary-text);
+}
+
+body.theme3 input[type="button"]:active {
+  transform: translatey(3px);
+  -webkit-transform: translatey(3px);
+  -moz-transform: translatey(3px);
+  -ms-transform: translatey(3px);
+  -o-transform: translatey(3px);
+  box-shadow: 0 0 0;
+}
+
+body.theme3 input[type="submit"]:active {
+  transform: translatey(3px);
+  -webkit-transform: translatey(3px);
+  -moz-transform: translatey(3px);
+  -ms-transform: translatey(3px);
+  -o-transform: translatey(3px);
+  box-shadow: 0 0 0;
+}

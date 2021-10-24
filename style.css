@@ -1,11 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap");
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
-html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: 100%;
   font-weight: normal;
 }
@@ -14,7 +41,9 @@ ul {
   list-style: none;
 }
 
-button, input, select {
+button,
+input,
+select {
   margin: 0;
 }
 
@@ -22,11 +51,14 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-img, video {
+img,
+video {
   height: auto;
   max-width: 100%;
 }
@@ -40,7 +72,8 @@ table {
   border-spacing: 0;
 }
 
-td, th {
+td,
+th {
   padding: 0;
 }
 
@@ -213,8 +246,8 @@ body {
   font-size: 20px;
 }
 
-input[type=button],
-input[type=submit] {
+input[type="button"],
+input[type="submit"] {
   font-family: "Spartan", sans-serif;
   height: 60px;
   border: none;
@@ -231,8 +264,8 @@ input[type=submit] {
   -o-border-radius: 10px;
 }
 
-input[type=button]:active,
-input[type=submit]:active {
+input[type="button"]:active,
+input[type="submit"]:active {
   transform: translatey(3px);
   -webkit-transform: translatey(3px);
   -moz-transform: translatey(3px);
@@ -240,7 +273,3 @@ input[type=submit]:active {
   -o-transform: translatey(3px);
   box-shadow: 0 0 0;
 }
-
-.theme2 {
-  background-color: #e6e6e6;
-}/*# sourceMappingURL=style.css.map */

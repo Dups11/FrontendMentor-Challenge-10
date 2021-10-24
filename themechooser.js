@@ -1,5 +1,8 @@
 const themes = document.querySelectorAll('input[name="switch"]');
-
+const declaration = document.styleSheets[0].cssRules[11].style;
+const styleSheets = document.styleSheets;
+console.log(styleSheets);
+console.log(declaration);
 // console.log(themes);
 
 themes.forEach((theme) => {
@@ -12,11 +15,12 @@ themes.forEach((theme) => {
     if (theme.value == 2) {
       document.body.classList.remove("theme1");
       document.body.classList.remove("theme3");
+      document.body.classList.add("theme2");
     }
     if (theme.value == 3) {
       document.body.classList.remove("theme1");
       document.body.classList.remove("theme2");
+      document.body.classList.add("theme3");
     }
-    document.body.classList.add("theme" + theme.value);
   });
 });
