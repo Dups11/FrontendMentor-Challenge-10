@@ -41,6 +41,8 @@ function reset() {
 
 // Suppression des entrées individuelles
 function del() {
+  // console.log(output);
+  output = output.toString();
   output = output.replace(output.slice(-1), "");
   screen.innerText = output;
 }
@@ -49,5 +51,5 @@ function del() {
 function result() {
   let result = eval(output);
   screen.innerHTML = result;
-  output = "";
+  output = result;
 }
